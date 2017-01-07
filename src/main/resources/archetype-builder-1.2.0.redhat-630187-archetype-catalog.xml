@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+	<archetypes>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-amq-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new ActiveMQ and Camel Example</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-log-wiki-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Camel Log Example (wiki)</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-cbr-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Camel Content-Based Router Example</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-eips-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Camel using mutliple EIPs into a single solution</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-errorhandler-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Error handling with Camel</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-log-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Camel Log Example</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-secure-rest-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Secure Restful Web Services Example using JAX-RS Basic Authentication with Fabric8</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-secure-soap-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new Secure SOAP example using JAXWS with WS-Security</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-cxf-contract-first-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new web service using the WSDL contract first</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-rest-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new RESTful WebService Example using JAX-RS with JBoss Fuse</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-soap-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new SOAP example using JAXWS</description>
+		</archetype>
+		<archetype>
+			<groupId>io.fabric8.archetypes</groupId>
+			<artifactId>karaf-camel-cxf-code-first-archetype</artifactId>
+			<version>1.2.0.redhat-630187</version>
+			<repository>http://maven.repository.redhat.com/ga</repository>
+			<description>Creates a new web service using Java code first</description>
+		</archetype>
+	</archetypes>
+</archetype-catalog>
