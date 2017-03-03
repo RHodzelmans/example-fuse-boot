@@ -156,6 +156,9 @@
 					<startupFeatures>
 						<feature>karaf-framework</feature>
 						<feature>shell</feature>
+						<feature>admin</feature>
+						<feature>management</feature>
+						<feature>hawtio</feature>
 						<feature>jaas</feature>
 						<feature>aries-blueprint</feature>
 						<feature>camel-blueprint</feature>
